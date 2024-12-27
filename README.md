@@ -1,4 +1,8 @@
-document.addEventListener("DOMContentLoaded", () => {
+buttons.forEach(button => {
+    button.addEventListener("click", () => {
+        alert("Produit ajouté au panier !");
+    });
+});document.addEventListener("DOMContentLoaded", () => {
     const buttons = document.querySelectorAll(".btn-add");
     
     buttons.forEach(button => {
@@ -38,6 +42,8 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="product-list">
                 <!-- Exemple de produit -->
                 <div class="product-item">
+![1000019638](https://github.com/user-attachments/assets/6ae23f64-b045-4248-8dda-44b1730595e8)
+![1000019639](https://github.com/user-attachments/assets/c623132c-aeb4-4146-b670-54af67e914b2)
                     <img src="https://via.placeholder.com/150" alt="Produit">
                     <h3>Produit 1</h3>
                     <p>Prix : 50€</p>
